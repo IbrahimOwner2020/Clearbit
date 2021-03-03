@@ -1,0 +1,409 @@
+@media only screen and (max-width: 1200px) {
+    .header {
+        background-image: linear-gradient(to bottom right, #0099ff, #0077ff);
+        color: #fff;
+        padding: 2.5rem 2rem;
+    }
+
+    .zenefit {
+        margin: 12rem 2rem;
+    }
+
+    .company {
+        margin: 6rem 2rem;
+    }
+
+    .form {
+        margin-top: 10rem;
+        padding: 12rem 2rem;
+    }
+
+    .footer {
+        padding: 8rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .nav-list {
+        display: none;
+        align-items: center;
+        list-style: none;
+    }
+
+    .nav-icon-left {
+        visibility: visible;
+        opacity: 1;
+        display: inline-block;
+    }
+
+    .left-icon:focus ~ .menu {
+        visibility: visible;
+        opacity: 1;
+        display: inline-block;
+        position: absolute;
+        z-index: 2000;
+        top: 0;
+        left: 0;
+        background-color: #041e3b;
+    }
+
+    .menu-div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 4rem;
+    }
+
+    .menu-top {
+        background-color: #03070e;
+        width: 100%;
+        padding: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .menu-top-btn {
+        background-color: #041e3b;
+        font-size: 1.8rem;
+        color: #fff;
+        padding: 1rem 2.3rem;
+        border: none;
+        border-radius: 5px;
+        margin-right: 2rem;
+    }
+
+    .menu-title {
+        color: #0099ff;
+        font-size: 2rem;
+    }
+
+    .drop-hr {
+        margin: 2rem 0;
+    }
+
+    .menu-list {
+        list-style: none;
+        width: 100%;
+    }
+
+    .menu-item {
+        margin: 1rem;
+        width: 100%;
+    }
+
+    .menu-link {
+        display: flex;
+        width: 100%;
+        padding: 1rem;
+        background-color: #072342;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .menu-link-img {
+        width: 3rem;
+        height: 3rem;
+        margin-right: 2rem;
+    }
+
+    .menu-link-details {
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .menu-link-details span {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .menu-link-details p {
+        font-size: 1.4rem;
+        color: #4e8bb4;
+    }
+    
+    .nav-drop-down-clearbit,
+    .nav-drop-down-books,
+    .nav-drop-down-products,
+    .nav-drop-down-intergrations {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 4rem;
+    }
+    
+    .drop-intergrations-link p {
+        font-size: 1.8rem;
+        color: #fff;
+    }
+    
+    .nav-drop-solution-end {
+        width: 100%;
+    }
+    
+    .solution-end {
+        width: 100%;
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+    }
+
+    .drop-book-link-details,
+    .drop-products-link-details,
+    .drop-clearbit-link {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html, 
+    body {
+        font-size: 50%;
+        font-family: sans-serif;
+    }
+
+    .heading {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+    
+    .primary-head {
+        padding-top: 7rem;
+        text-align: center;
+    }
+    
+    .primary-head button {
+        margin: 4rem 0;
+    }
+    
+    .header-icons {
+        width: 100%;
+        height: 30rem;
+    }
+    
+    .icon-item1 {
+        width: 2.2rem;
+        padding: 1.4rem;
+        border-radius: 9px;
+        position: absolute;
+        top: 0;
+        left: 30%;
+        animation: icons 7s 1s ease infinite;
+    }
+    
+    .icon-item2 {
+        width: 3.5rem;
+        padding: 1rem;
+        border-radius: 9px;
+        position: absolute;
+        top: 2rem;
+        left: 18%;
+        animation: icons 7s 2s ease infinite;
+    }
+    
+    .icon-item3 {
+        width: 5rem;
+        padding: 1rem;
+        border-radius: 9px;
+        position: absolute;
+        top: 2rem;
+        left: 60%;
+        animation: icons 7s 1.5s ease infinite;
+    }
+    
+    .icon-item4 {
+        width: 3.4rem;
+        padding: 1rem;
+        border-radius: 9px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        animation: icons 9s 4s ease infinite;
+    }
+    
+    .icon-item5 {
+        width: 4rem;
+        padding: 1rem;
+        border-radius: 9px;
+        position: absolute;
+        top: 10rem;
+        right: 5%;
+        animation: icons 7s .4s ease infinite;
+    }
+    
+    .icon-item6 {
+        width: 4rem;
+        height: 4rem;
+        padding: .8rem;
+        border-radius: 9px;
+        position: absolute;
+        left: 0;
+        top: 10rem;
+        animation: icons 9s .4s ease infinite;
+    }
+    
+    .icon-item7 {
+        width: 3.5rem;
+        padding: 1rem;
+        border-radius: 9px;
+        position: absolute;
+        top: 10rem;
+        left: 50%;
+        animation: icons 8s .4s ease infinite;
+    }
+    
+    .icon-item8 {
+        width: 2.5rem;
+        padding: 2rem;
+        border-radius: 9px;
+        position: absolute;
+        top: 12rem;
+        left: 75%;
+        animation: icons 9s .4s ease infinite;
+    }
+    
+    .icon-item9 {
+        width: 2.5rem;
+        padding: 1rem;
+        border-radius: 9px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: icons 7s .4s ease infinite;
+    }
+    
+    .icon-item10 {
+        width: 2.5rem;
+        padding: 1.5rem;
+        border-radius: 9px;
+        position: absolute;
+        bottom: 6rem;
+        left: 40%;
+        animation: icons 7s 2s ease infinite;
+    }
+    
+    .icon-item11 {
+        width: 3rem;
+        padding: 1rem;
+        border-radius: 9px;
+        position: absolute;
+        bottom: 0;
+        right: 5%;
+        animation: icons 7s .4s ease infinite;
+    }
+
+    .zenefit {
+        max-width: 100%;
+        margin: 12rem 1rem;
+    }
+
+    .zenefit-team {
+        display: none;
+        visibility: hidden;
+    }
+    
+    .zenefit-details {
+        padding: 3rem 0;
+        margin: 2rem;
+    }
+
+    .zenefit-logo {
+        margin-bottom: 2rem;
+    }
+    
+    .zenefit-para {
+        margin: 2rem 0;
+    }
+
+    .company-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company-links-btn {
+        margin: .5rem;
+    }
+
+    .company-details {
+        display: flex;
+        flex-direction: column;
+        grid-column-gap: 8rem;
+        align-items: flex-start;
+    }
+
+    .company-left {
+        margin: 5rem 0;
+    }
+
+    .company-sponser {
+        width: 80%;
+        display: flex;
+        margin: 4rem auto;
+        justify-content: space-between;
+    }
+    
+    .sponser-logo {
+        width: 15rem;
+        filter: brightness(70%);
+    }
+    
+    .sponser-logo-2 {
+        width: 15rem;
+        filter: brightness(130%);
+    }
+
+    .form-div {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-details {
+        width: 100%;
+        padding: 3rem 0;
+        text-align: center;
+    }
+
+    .form-form {
+        background-color: #26354b;
+        border-radius: 10px;
+        width: 100%;
+        margin-left: 0;
+        padding: 4rem;
+        text-align: center;
+    }
+
+    .footer-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    html, 
+    body {
+        font-size: 40%;
+        font-family: sans-serif;
+    }
+
+    .sponser-logo {
+        width: 10rem;
+        filter: brightness(70%);
+    }
+    
+    .sponser-logo-2 {
+        width: 10rem;
+        filter: brightness(130%);
+    }
+} 
